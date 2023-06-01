@@ -7,7 +7,7 @@ import Navbar from "./Sections/Navbar";
 import Title from "./Sections/Title";
 function App() {
   return (
-    <div>
+    <div className="aspect-auto">
       <Navbar />
       <Title />
       <Description />
