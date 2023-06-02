@@ -1,4 +1,3 @@
-import "./App.css";
 import AboutUs from "./Sections/AboutUs";
 import Contact from "./Sections/Contact";
 import Description from "./Sections/Description";
@@ -7,7 +6,7 @@ import Navbar from "./Sections/Navbar";
 import Title from "./Sections/Title";
 function App() {
   return (
-    <div>
+    <div className="aspect-auto">
       <Navbar />
       <Title />
       <Description />
