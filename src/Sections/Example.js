@@ -2,7 +2,7 @@
 //Then this section will start off by saying "Don't believe us, take a look at our past works"
 
 import React from "react";
-import "./Example.css";
+// import "./Example.css";
 
 const callouts = [
   {
@@ -33,7 +33,7 @@ const callouts = [
 
 function Example() {
   return (
-    <div className="wholeSection">
+    <div className="h-500 bg-[#695B55]">
       <p className="text-center font-semibold tracking-tight sm:text-6xl text-white pt-14">
         Don't Believe Us Yet?
       </p>
