@@ -34,15 +34,14 @@ const callouts = [
 function Example() {
   return (
     <div className="wholeSection">
-      <p className="text-center text-3xl font-bold tracking-tight text-black sm:text-5xl">
+      <p className="text-center font-semibold tracking-tight sm:text-6xl text-white pt-14">
         Don't Believe Us Yet?
       </p>
-      <p className="">
+      <p className="text-center sm:text-2xl tracking-tight font-semibold text-white pt-5">
         Check out some of our past works from our satisfied customers
       </p>
-
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-5 pb-20">
+        <div className="mx-auto max-w-2xl pt-16 lg:max-w-none ">
           {/* <h2 className="text-2xl font-bold text-gray-900">Collections</h2> */}
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
@@ -55,13 +54,13 @@ function Example() {
                     className="h-full w-full object-cover object-center p-2"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-gray-500">
+                <h3 className="sm:text-4xl text-white pl-1 pt-8 text-base font-semibold text-gray-900">
                   <a href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
                   </a>
                 </h3>
-                <p className="text-base font-semibold text-gray-900">
+                <p className="sm:text-lg font-semibold text-white pl-1 mt-6 text-sm text-gray-500">
                   {callout.description}
                 </p>
               </div>

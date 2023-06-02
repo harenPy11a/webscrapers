@@ -1,7 +1,11 @@
 import React from "react";
 
 function Description() {
-  return <div>Description</div>;
+  return (
+    <div className="pt-96">
+      <p>Description</p>
+    </div>
+  );
 }
 
 export default Description;
