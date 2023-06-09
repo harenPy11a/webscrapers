@@ -9,7 +9,7 @@ const features = [
   {
     name: "Personalization",
     description:
-      "Our work will always include you. The whole process will be guided by tour wishes.",
+      "Our work will always include you. The whole process will be guided by your wishes.",
   },
   {
     name: "Pricing",
@@ -19,36 +19,36 @@ const features = [
   {
     name: "Timing",
     description:
-      "Our team will be dedicates to ensure that your deadlines are accomplished.",
+      "Our team will be dedicated to ensure that your deadlines are accomplished.",
   },
   {
-    name: "Includes",
-    description: "Wood card tray and 3 refill packs",
-  },
-  {
-    name: "Considerations",
+    name: "Flexibility",
     description:
-      "Made from natural materials. Grain and color vary with each item.",
+      "With a small team of 3 developers, we will are flexible to your specifications.",
+  },
+  {
+    name: "Passion",
+    description:
+      "Our work is not guided by money and instead serves to fulfill our passion.",
   },
 ];
 
 function Description() {
   return (
-    <div className="bg-[#06295e]">
+    <div className="bg-[#2a303c]">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-grey-900 sm:text-4xl">
+          <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900">
             What We Provide
           </h2>
-          <p className="mt-4 text-gray-500">
-            Here at WebScrapers our aim is to help local businesses build new
-            and improved websites to
+          <p className="mt-4 lg:text-2xl text-xl text-gray-500">
+            At Webscrapers, our focus remains on <span class="font-bold text-[#695B55]">your</span> needs. We strive to fulfill the goals of  <span class="font-bold text-[#695B55]">your</span> website in the way that  <span class="text-[#695B55]">you</span> want it.
           </p>
 
-          <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+          <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {features.map((feature) => (
-              <div key={feature.name} className="border-t border-gray-200 pt-4">
-                <dt className="font-medium text-gray-900">{feature.name}</dt>
+              <div key={feature.name} className="border-b-2 border-gray-600 pb-4">
+                <dt className="font-medium text-white">{feature.name}</dt>
                 <dd className="mt-2 text-sm text-gray-500">
                   {feature.description}
                 </dd>
