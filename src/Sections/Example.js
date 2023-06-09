@@ -38,7 +38,7 @@ function Example() {
   return (
     <div className="h-500 bg-[#695B55]">
       <p className="text-center font-semibold tracking-tight text-4xl md:text-5xl xl:text-6xl text-white pt-14">
-        Don't Believe Us Yet?
+        Our Work
       </p>
       <p className="text-center text-lg md:text-xl xl:text-2xl tracking-tight text-white pt-5">
         Check out some of our past works from our satisfied customers
