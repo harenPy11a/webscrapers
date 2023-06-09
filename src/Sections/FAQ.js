@@ -66,7 +66,7 @@ function FAQ() {
                   </svg>
                 </span>
               </summary>
-              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn text-white">
+              <p class="text-neutral-600 mt-3 group-open:animate-fadeIn text-[#b5b5b5]">
                 {data.answer}
               </p>
             </details>
