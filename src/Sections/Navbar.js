@@ -1,26 +1,26 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import logo from './Assets/logo.jpeg'
+import logo from "./Assets/logo.jpeg";
 
 const navigation = [
-  { name: 'About Us', href: 'About Us', current: false },
-  { name: 'Contact', href: 'contact', current: false },
-  { name: 'Description', href: 'description', current: false },
-  { name: 'Examples', href: 'examples', current: false },
-]
+  { name: "About Us", href: "About Us", current: false },
+  { name: "Contact", href: "contact", current: false },
+  { name: "Description", href: "description", current: false },
+  { name: "Examples", href: "examples", current: false },
+];
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-[#2a303c]">
+    <Disclosure as="nav" className="">
       {({ open }) => (
         <>
-          <div className="max-w-7xl  px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl  max-h-full px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -53,10 +53,12 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-[#9897A9] text-white' : 'text-white hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          item.current
+                            ? "bg-[#9897A9] text-white"
+                            : "text-white hover:bg-gray-700 hover:text-white",
+                          "px-3 py-2 rounded-md text-sm font-medium"
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </a>
@@ -74,10 +76,12 @@ export default function Navbar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-[#9897A9] text-white' : 'text-white hover:bg-[#9897A9] hover:text-white',
-                    'px-3 py-2 rounded-md text-sm font-medium'
+                    item.current
+                      ? "bg-[#9897A9] text-white"
+                      : "text-white hover:bg-[#9897A9] hover:text-white",
+                    "px-3 py-2 rounded-md text-sm font-medium"
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
@@ -87,5 +91,5 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
