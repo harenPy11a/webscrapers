@@ -33,11 +33,11 @@ const callouts = [
 
 function Example() {
   return (
-    <div className="h-500 bg-[#695B55]">
-      <p className="text-center font-semibold tracking-tight sm:text-6xl text-white pt-14">
+    <div className="h-500 bg-[#F4F1EC]">
+      <p className="text-center font-semibold tracking-tight sm:text-6xl text-[#695B55] pt-14">
         Don't Believe Us Yet?
       </p>
-      <p className="text-center sm:text-2xl tracking-tight font-semibold text-white pt-5">
+      <p className="text-center sm:text-2xl tracking-tight font-semibold text-black pt-5">
         Check out some of our past works from our satisfied customers
       </p>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-5 pb-20">
@@ -54,13 +54,13 @@ function Example() {
                     className="h-full w-full object-cover object-center p-2"
                   />
                 </div>
-                <h3 className="sm:text-4xl text-white pl-1 pt-8 text-base font-semibold text-gray-900">
+                <h3 className="sm:text-4xl text-[#695B55] pl-1 pt-8 text-base font-semibold ">
                   <a href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
                   </a>
                 </h3>
-                <p className="sm:text-lg font-semibold text-white pl-1 mt-6 text-sm text-gray-500">
+                <p className="sm:text-lg font-semibold text-black pl-1 mt-6 text-sm ">
                   {callout.description}
                 </p>
               </div>

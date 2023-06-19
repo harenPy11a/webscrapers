@@ -7,7 +7,7 @@ import Title from "./Sections/Title";
 import FAQ from "./Sections/FAQ";
 function App() {
   return (
-    <div className="aspect-auto ">
+    <div className="bg-[#F4F1EC] ">
       <Navbar />
       <Title />
       <Description />

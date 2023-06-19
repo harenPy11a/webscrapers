@@ -59,7 +59,7 @@ function AboutUs() {
   };
 
   return (
-    <div className="grid grid-flow-col auto-cols-max w-full">
+    <div className="grid grid-flow-col auto-cols-max w-full bg-[#F4F1EC]">
       <div className="w-[700px] h-[780px] m-14 py-16 px-4 relative group">
         <div
           style={{ backgroundImage: `url(${picslides[currentIndex].url})` }}
@@ -85,7 +85,7 @@ function AboutUs() {
           ))}
         </div>
       </div>
-      <div className="h-[780px] m-14 pt-72 px-4">
+      <div className="h-[780px] m-14 pt-72 px-4 text-black">
         {personslides[currentIndex].content}
       </div>
     </div>
