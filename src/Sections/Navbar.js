@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import logo from "./Assets/logo.jpeg";
+import logo from "./Assets/logo3.png";
 
 const navigation = [
   { name: "About Us", href: "About Us", current: false },
