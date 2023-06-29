@@ -5,10 +5,10 @@ import Example from "./Sections/Example";
 import Navbar from "./Sections/Navbar";
 import Title from "./Sections/Title";
 import FAQ from "./Sections/FAQ";
+import Particle from "./Sections/Particle";
 function App() {
   return (
-    <div className="bg-[#F4F1EC] ">
-      <Navbar />
+    <div>
       <Title />
       <Description />
       <Example />

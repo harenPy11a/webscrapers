@@ -31,7 +31,6 @@ function AboutUs() {
     {
       content: "3",
     },
-
     {
       content: "4",
     },

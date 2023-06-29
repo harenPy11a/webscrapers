@@ -17,15 +17,15 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <div className="bg-transparent">
-      <Disclosure as="nav" className="bg-[#F4F1EC]">
+    <div className="">
+      <Disclosure as="nav" className="">
         {({ open }) => (
           <>
             <div className="max-w-7xl  max-h-full px-2 sm:px-6 lg:px-8">
               <div className="relative flex items-center justify-between h-16">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -55,8 +55,8 @@ export default function Navbar() {
                           href={item.href}
                           className={classNames(
                             item.current
-                              ? "bg-[#9897A9] text-black"
-                              : "text-black hover:bg-[#695B55] hover:text-white",
+                              ? "bg-[#9897A9] text-white"
+                              : "text-white hover:bg-[#695B55] hover:text-white",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
