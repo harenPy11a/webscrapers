@@ -36,7 +36,7 @@ const features = [
 function Description() {
   return (
     <div className="bg-[#F4F1EC]">
-      <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+      <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black">
             What We Provide
@@ -63,7 +63,7 @@ function Description() {
             ))}
           </dl>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8 ">
           <img
             src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
