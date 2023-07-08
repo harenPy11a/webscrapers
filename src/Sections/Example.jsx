@@ -1,12 +1,8 @@
-//Above this section say something like "We aere the right team for you"
-//Then this section will start off by saying "Don't believe us, take a look at our past works"
-
 import React from "react";
 import labImg from "./Assets/pexels-rodolfo-clix-1366942.jpg";
 import financeImg from "./Assets/pexels-pixabay-265087.jpg";
 import chicagoImg from "./Assets/pexels-bhargava-marripati-1569012.jpg";
-// import "./Example.css";
-
+import { block } from "million";
 const callouts = [
   {
     name: "Scientific Laboratory",
@@ -31,7 +27,7 @@ const callouts = [
   },
 ];
 
-function Example() {
+const ExampleBlock = block(function Example() {
   return (
     <div className="h-500 bg-[#F4F1EC]">
       <p className="text-center font-semibold tracking-tight sm:text-6xl text-[#695B55] pt-14">
@@ -70,6 +66,6 @@ function Example() {
       </div>
     </div>
   );
-}
+});
 
-export default Example;
+export default ExampleBlock;

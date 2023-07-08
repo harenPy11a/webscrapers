@@ -1,6 +1,6 @@
 import React from "react";
-
-function Contact() {
+import { block } from "million";
+const ContactBlock = block(function Contact() {
   return (
     <div>
       <footer className="footer p-10 bg-[#F4F1EC]">
@@ -34,6 +34,6 @@ function Contact() {
       </footer>
     </div>
   );
-}
+});
 
-export default Contact;
+export default ContactBlock;

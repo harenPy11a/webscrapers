@@ -1,15 +1,16 @@
 import React from "react";
-import Particle from "./Particle";
-import Navbar from "./Navbar";
-function Title() {
+import ParticleBlock from "./Particle";
+import NavBlock from "./Navbar";
+import { block } from "million";
+const TitleBlock = block(function Title() {
   return (
-    <div className="">
+    <div className="Title">
       <div className="absolute">
-        <Particle></Particle>
+        <ParticleBlock></ParticleBlock>
       </div>
 
       <section className="absolute">
-        <Navbar />
+        <NavBlock />
         <div>
           <div class="grid sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen max-w-screen-xl px-24 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center col-span-4">
@@ -28,6 +29,6 @@ function Title() {
       </section>
     </div>
   );
-}
+});
 
-export default Title;
+export default TitleBlock;

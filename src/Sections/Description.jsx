@@ -1,5 +1,5 @@
 import React from "react";
-
+import { block } from "million";
 const features = [
   {
     name: "Team",
@@ -33,7 +33,7 @@ const features = [
   },
 ];
 
-function Description() {
+const DescriptionBlock = block(function Description() {
   return (
     <div className="bg-[#F4F1EC]">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
@@ -50,7 +50,7 @@ function Description() {
           </p>
 
           <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-            {features.map((feature) => (
+            {/* {features.map((feature) => (
               <div
                 key={feature.name}
                 className="border-b-2 border-gray-600 pb-4 text-[#695B55]"
@@ -60,7 +60,7 @@ function Description() {
                   {feature.description}
                 </dd>
               </div>
-            ))}
+            ))} */}
           </dl>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8 ">
@@ -88,6 +88,6 @@ function Description() {
       </div>
     </div>
   );
-}
+});
 
-export default Description;
+export default DescriptionBlock;
