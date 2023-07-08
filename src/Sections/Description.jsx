@@ -35,7 +35,7 @@ const features = [
 
 const DescriptionBlock = block(function Description() {
   return (
-    <div className="bg-[#F4F1EC]">
+    <div className="bg-[#F4F1EC] relative">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black">
@@ -50,7 +50,7 @@ const DescriptionBlock = block(function Description() {
           </p>
 
           <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-            {/* {features.map((feature) => (
+            {features.map((feature) => (
               <div
                 key={feature.name}
                 className="border-b-2 border-gray-600 pb-4 text-[#695B55]"
@@ -60,7 +60,7 @@ const DescriptionBlock = block(function Description() {
                   {feature.description}
                 </dd>
               </div>
-            ))} */}
+            ))}
           </dl>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8 ">

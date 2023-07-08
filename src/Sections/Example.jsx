@@ -29,7 +29,7 @@ const callouts = [
 
 const ExampleBlock = block(function Example() {
   return (
-    <div className="h-500 bg-[#F4F1EC]">
+    <div className="h-500 bg-[#F4F1EC] relative">
       <p className="text-center font-semibold tracking-tight sm:text-6xl text-[#695B55] pt-14">
         Don't Believe Us Yet?
       </p>

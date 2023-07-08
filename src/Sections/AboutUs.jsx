@@ -58,7 +58,7 @@ const AboutUsBlock = block(function AboutUs() {
   };
 
   return (
-    <div className="grid grid-flow-col auto-cols-max w-full bg-[#F4F1EC]">
+    <div className="relative grid grid-flow-col auto-cols-max w-full bg-[#F4F1EC]">
       <div className="w-[700px] h-[780px] m-14 py-16 px-4 relative group">
         <div
           style={{ backgroundImage: `url(${picslides[currentIndex].url})` }}

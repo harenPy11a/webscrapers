@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <TitleBlock />
-      <div className="pb-[1000px]"></div>
+      <div className="pb-[950px]"></div>
       <DescriptionBlock />
       <ExampleBlock />
       <AboutUsBlock />
