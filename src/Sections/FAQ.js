@@ -8,6 +8,10 @@ const info = [
     answer: "Working with our developers at Webscrapers will give you a cost-free solution to your digital profile. Our methodology ensures that our you're treated like more than just a client. We want you to feel apart of a team making a personalized space for your needs. What makes us different is the passion with which we approach our work paired with our desire to help you succeed."
   },
   {
+    question: "Why is our service important?",
+    answer: "Whether you're a prominent supplier or a struggling business, your online presence is increasingly becoming important. Our service ensures that your website works at its absolute best to provide you with the traffic that you need. If you don't have a website, we'll make one. If you need an upgrade, we'll make yours better. That is the Webscrapers guarantee!",
+  },
+  {
     question: "What experience do we have?",
     answer: "All of our developers have been interested in the field of computer science for most of their recent lives, with all of them taking classes in the field for all their highschool years. Our skills are enough to get you over the line when it comes to your website.",
   },
@@ -22,10 +26,6 @@ const info = [
   {
     question: "How can you contact us?",
     answer: "The best way to contact us is through our email. We ensure speed in not only communication, but also developement. Depending on your needs, we're willing to set up meetings as well.",
-  },
-  {
-    question: "Why is our service important?",
-    answer: "Whether you're a prominent supplier or a struggling business, your online presence is increasingly becoming important. Our service ensures that your website works at its absolute best to provide you with the traffic that you need. If you don't have a website, we'll make one. If you need an upgrade, we'll make yours better. That is the Webscrapers guarantee!",
   },
   {
     question: "Why are we doing this?",

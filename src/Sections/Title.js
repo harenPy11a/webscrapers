@@ -1,5 +1,4 @@
 import React from "react";
-import headerBackground from "./Assets/unnamed.jpg";
 import Navbar from "./Navbar";
 function Title() {
   return (
@@ -13,7 +12,7 @@ function Title() {
             </h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               Flexible to your needs, Webscrapers will build a website that
-              catches your target audience's attention and grows your platform.
+              catches your audience's attention and grows your platform.
             </p>
           </div>
           {/* <img

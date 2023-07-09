@@ -1,7 +1,7 @@
-import AboutUs from "./Sections/AboutUs";
+import OurWork from "./Sections/OurWork";
 import Contact from "./Sections/Contact";
 import Description from "./Sections/Description";
-import Example from "./Sections/Example";
+import AboutUs from "./Sections/AboutUs";
 import Navbar from "./Sections/Navbar";
 import Title from "./Sections/Title";
 import FAQ from "./Sections/FAQ";
@@ -11,9 +11,9 @@ function App() {
       <Navbar />
       <Title />
       <Description />
-      <Example />
-      <AboutUs />
+      <OurWork />
       <FAQ />
+      <AboutUs />
       <Contact />
     </div>
   );
