@@ -35,8 +35,8 @@ function OurWork() {
   };
 
   return (
-    <div className="grid grid-flow-col auto-cols-max w-full bg-gray-300">
-      <div className="w-[870px] h-[780px] m-2 py-16 px-4 relative group">
+    <div className="flex flex-col lg:flex-row bg-gray-300">
+      <div className="xl:w-[870px] xl:h-[780px] w-screen h-[500px] m-2 py-4 px-4 xl:py-16 relative group">
         <div
           style={{ backgroundImage: `url(${picslides[currentIndex].url})` }}
           className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
@@ -76,7 +76,7 @@ function OurWork() {
               <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-purple-600 rounded-full">Volunteering</span>
 
               <div className="py-8">
-              <p class="text-gray-700 "><a href="https://www.indiahub.org" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+              <p class="text-gray-700"><a href="https://www.indiahub.org" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
               Check out the work
               <svg aria-hidden="true" class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
               </a></p>
