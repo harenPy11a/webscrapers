@@ -40,16 +40,15 @@ const info = [
 
 const FAQBlock = block(function FAQ() {
   return (
-    <div class="w-screen mx-auto px-5 relative pt-10 pb-18 bg-[#F4F1EC] min-h-sceen">
+    <div class="w-screen mx-auto px-5 relative pt-10 pb-18 bg-[#F4F1EC] min-h-sceen ">
       <div class="flex flex-col items-center">
-        <h2 class="font-bold text-5xl mt-5 tracking-tight pb-10 text-[#695B55]">
+        <h2 class="font-bold text-5xl mt-5 tracking-tight pb-10 text-[#695B55] text-center">
           Frequenty asked questions
         </h2>
-        {/* <p class="text-neutral-500 text-xl mt-3">Frequenty asked questions</p> */}
       </div>
-      <div class="grid divide-y divide-black max-w-xl mx-auto mt-8">
+      <div class="grid divide-y divide-black max-w-xl mx-auto mt-8 ">
         {info.map((data) => (
-          <div class="py-5 -translate-x-[205px] -translate-y-[25px] w-[1000px]">
+          <div class="py-5 lg:-translate-x-[205px] lg:-translate-y-[25px] lg:w-[1000px]">
             <details class="group">
               <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
                 <span className="text-black font-bold text-xl">
