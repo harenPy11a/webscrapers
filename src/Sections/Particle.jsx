@@ -1,6 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { block } from "million";
+
 const ParticleBlock = block(function Particle() {
   const particlesInit = async (main) => {
     console.log(main);
