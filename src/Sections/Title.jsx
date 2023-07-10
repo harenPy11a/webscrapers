@@ -5,7 +5,7 @@ import { block } from "million";
 const TitleBlock = block(function Title() {
   return (
     <div className="Title">
-      <div className="absolute">
+      <div className="absolute h-screen w-screen">
         <ParticleBlock></ParticleBlock>
       </div>
 
