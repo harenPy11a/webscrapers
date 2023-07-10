@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import logo from "./Assets/logo3.png";
+import logo from "./Assets/logo5.png";
 import { block } from "million";
 
 const navigation = [
