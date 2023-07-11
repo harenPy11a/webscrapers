@@ -14,7 +14,7 @@ const AboutUsBlock = block(function AboutUs() {
 
 
   return (
-    <section class="bg-[#F4F1EC]">
+    <section id="aboutus" class="bg-[#F4F1EC]">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">Our Team</h1>
 

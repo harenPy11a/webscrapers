@@ -4,10 +4,12 @@ import logo from "./Assets/logo5.png";
 import { block } from "million";
 
 const navigation = [
-  { name: "About Us", href: "About Us", current: false },
-  { name: "Contact", href: "contact", current: false },
-  { name: "Description", href: "description", current: false },
-  { name: "Examples", href: "examples", current: false },
+  { name: "About Us", href: "#aboutus", current: false },
+  { name: "Description", href: "#description", current: false },
+  { name: "Our Work", href: "#ourwork", current: false },
+  { name: "FAQ", href: "#faq", current: false },
+  { name: "Contact", href: "#contact", current: false },
+
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -45,10 +47,13 @@ const NavBlock = block(function Navbar() {
                       alt="Workflow"
                     />
                   </div>
+                  
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex space-x-4">
+
                       {navigation.map((item) => (
                         <a
+
                           key={item.name}
                           href={item.href}
                           className={classNames(
@@ -62,12 +67,14 @@ const NavBlock = block(function Navbar() {
                           {item.name}
                         </a>
                       ))}
+
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
-            <Disclosure.Panel className="sm:hidden">
+            {/* <Disclosure.Panel className="sm:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {navigation.map((item) => (
                   <Disclosure.Button
@@ -86,7 +93,7 @@ const NavBlock = block(function Navbar() {
                   </Disclosure.Button>
                 ))}
               </div>
-            </Disclosure.Panel>
+            </Disclosure.Panel> */}
           </>
         )}
       </Disclosure>
