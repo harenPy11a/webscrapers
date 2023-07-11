@@ -74,7 +74,7 @@ const NavBlock = block(function Navbar() {
                 </div>
               </div>
             </div>
-            {/* <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="sm:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {navigation.map((item) => (
                   <Disclosure.Button
@@ -93,7 +93,7 @@ const NavBlock = block(function Navbar() {
                   </Disclosure.Button>
                 ))}
               </div>
-            </Disclosure.Panel> */}
+            </Disclosure.Panel>
           </>
         )}
       </Disclosure>
