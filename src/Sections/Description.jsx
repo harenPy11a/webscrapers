@@ -1,5 +1,10 @@
 import React from "react";
 import { block } from "million";
+import desc3 from './Assets/desc3.jpg'
+import desc2 from './Assets/desc2.jpg'
+import desc5 from './Assets/desc5.jpg'
+import desc4 from './Assets/desc4.jpg'
+
 const features = [
   {
     name: "Team",
@@ -65,22 +70,22 @@ const DescriptionBlock = block(function Description() {
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8 ">
           <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+            src={desc4}
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
             className="rounded-lg bg-gray-100"
           />
           <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
+            src={desc2}
             alt="Top down view of walnut card tray with embedded magnets and card groove."
             className="rounded-lg bg-gray-100"
           />
           <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
+             src={desc3}
             alt="Side of walnut card tray with card groove and recessed card area."
             className="rounded-lg bg-gray-100"
           />
           <img
-            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
+            src={desc5}
             alt="Walnut card tray filled with cards and card angled in dedicated groove."
             className="rounded-lg bg-gray-100"
           />
