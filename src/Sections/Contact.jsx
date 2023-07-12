@@ -5,6 +5,7 @@ const ContactBlock = block(function Contact() {
     <div className="relative">
       <footer className="footer p-10 bg-[#000] ">
         {/* flex justify-center */}
+
         <div>
           <span className="font-semibold text-lg text-[#fff]">Services</span>
           <a className="text-white">Branding</a>
