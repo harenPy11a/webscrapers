@@ -35,8 +35,8 @@ const features = [
 
 const DescriptionBlock = block(function Description() {
   return (
-    <div id="description" className="bg-[#F4F1EC] relative">
-      <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+    <div className="bg-[#ede5d8] relative">
+      <div className="mx-auto grid max-w-screen grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black">
             What We Provide

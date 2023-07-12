@@ -43,7 +43,9 @@ const ExampleBlock = block(function Example() {
   };
   
   return (
-    <div id="ourwork" className="flex flex-col lg:flex-row bg-gray-300">
+
+    <div className="flex flex-col lg:flex-row bg-[#d8e7ed]">
+
       <div className="xl:w-[870px] xl:h-[780px] w-screen h-[500px] m-2 py-4 px-4 xl:py-16 relative group">
         <div
           style={{ backgroundImage: `url(${picslides[currentIndex].url})` }}

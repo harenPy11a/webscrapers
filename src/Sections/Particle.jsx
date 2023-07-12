@@ -14,7 +14,7 @@ const ParticleBlock = block(function Particle() {
   return (
     <div>
       <Particles
-        className="sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen w-full"
+        className="sm:h-screen md:h-screen lg:h-screen xl:h-screen 2xl:h-screen w-screen"
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
