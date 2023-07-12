@@ -45,7 +45,7 @@ const info = [
 
 const AboutUsBlock = block(function AboutUs() {
   return (
-    <section id="aboutus" class="bg-[#ffffff]">
+    <section id="aboutus" class="bg-[#fffdf5]">
       <div class="container px-6 py-10 mx-auto">
         <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">
           Our Team
