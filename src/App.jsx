@@ -5,6 +5,8 @@ import DescriptionBlock from "./Sections/Description";
 import ExampleBlock from "./Sections/Example";
 import FAQBlock from "./Sections/FAQ";
 import TitleBlock from "./Sections/Title";
+import ProcessBlock from "./Sections/Process";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -13,6 +15,7 @@ function App() {
       <TitleBlock />
       <div className="pb-[950px] bg-[#121212]"></div>
       <DescriptionBlock />
+      <ProcessBlock />
       <ExampleBlock />
       <AboutUsBlock />
       <FAQBlock />

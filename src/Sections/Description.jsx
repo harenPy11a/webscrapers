@@ -1,9 +1,9 @@
 import React from "react";
 import { block } from "million";
-import desc3 from './Assets/desc3.jpg'
-import desc2 from './Assets/desc2.jpg'
-import desc5 from './Assets/desc5.jpg'
-import desc4 from './Assets/desc4.jpg'
+import desc3 from "./Assets/desc3.jpg";
+import desc2 from "./Assets/desc2.jpg";
+import desc5 from "./Assets/desc5.jpg";
+import desc4 from "./Assets/desc4.jpg";
 
 const features = [
   {
@@ -82,7 +82,7 @@ const DescriptionBlock = block(function Description() {
             className="rounded-lg bg-gray-100"
           />
           <img
-             src={desc3}
+            src={desc3}
             alt="Side of walnut card tray with card groove and recessed card area."
             className="rounded-lg bg-gray-100"
           />

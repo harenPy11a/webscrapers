@@ -1,7 +1,8 @@
 import React from "react";
 import ParticleBlock from "./Particle";
-import NavBlock from "./Navbar";
 import { block } from "million";
+import NavBlock from "./Sections/Navbar";
+
 const TitleBlock = block(function Title() {
   return (
     <div className="Title">
@@ -11,23 +12,22 @@ const TitleBlock = block(function Title() {
 
       <section className="absolute">
         <NavBlock />
+
         <div>
           <div class="h-screen w-screen ">
-            <div class="h-screen mr-auto place-self-center"> 
-            {/* divide-transparent */}
-              <p className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[100px] text-gray-100 text-center mt-24"> 
+            <div class="h-screen mr-auto place-self-center">
+              {/* divide-transparent */}
+              <p className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[100px] text-gray-100 text-center mt-24">
                 Webscrapers
               </p>
               <p className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[65px] text-[#695B55] text-center mt-16">
                 Building Websites Made Easy
               </p>
               <p className="mx-auto max-w-xl font-light text-gray-500 md:text-lg lg:text-2xl dark:text-gray-400 text-center mt-16">
-                Flexible to your needs, our Webscrapers team will build you a website that catches 
-                your target audience's attention and grows your platform.
+                Flexible to your needs, our Webscrapers team will build you a
+                website that catches your target audience's attention and grows
+                your platform.
               </p>
-
-
-             
             </div>
           </div>
         </div>
@@ -36,22 +36,7 @@ const TitleBlock = block(function Title() {
   );
 });
 
-
 export default TitleBlock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React from "react";
 // import ParticleBlock from "./Particle";
@@ -86,6 +71,5 @@ export default TitleBlock;
 //     </div>
 //   );
 // });
-
 
 // export default TitleBlock;

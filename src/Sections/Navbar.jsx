@@ -9,7 +9,6 @@ const navigation = [
   { name: "Our Work", href: "#ourwork", current: false },
   { name: "FAQ", href: "#faq", current: false },
   { name: "Contact", href: "#contact", current: false },
-
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -17,7 +16,7 @@ function classNames(...classes) {
 
 const NavBlock = block(function Navbar() {
   return (
-    <div className="">
+    <div className="sticky top-0">
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
@@ -47,13 +46,11 @@ const NavBlock = block(function Navbar() {
                       alt="Workflow"
                     />
                   </div>
-                  
+
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex space-x-4">
-
                       {navigation.map((item) => (
                         <a
-
                           key={item.name}
                           href={item.href}
                           className={classNames(
@@ -67,10 +64,8 @@ const NavBlock = block(function Navbar() {
                           {item.name}
                         </a>
                       ))}
-
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>

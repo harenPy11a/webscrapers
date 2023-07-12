@@ -40,9 +40,10 @@ const info = [
 
 const FAQBlock = block(function FAQ() {
   return (
-
-    <div id="faqn" class="w-screen mx-auto px-5 relative pt-10 pb-18 bg-[#000] min-h-screen">
-
+    <div
+      id="faq"
+      class="w-screen mx-auto px-5 relative pt-10 pb-18 bg-[#000] min-h-screen"
+    >
       <div class="flex flex-col items-center">
         <h2 class="font-bold text-5xl mt-5 tracking-tight pb-10 text-[#fff] text-center">
           Frequenty Asked Questions
