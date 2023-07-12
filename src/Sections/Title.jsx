@@ -1,7 +1,7 @@
 import React from "react";
 import ParticleBlock from "./Particle";
 import { block } from "million";
-import NavBlock from "./Sections/Navbar";
+import NavBlock from "./Navbar";
 
 const TitleBlock = block(function Title() {
   return (
@@ -14,7 +14,7 @@ const TitleBlock = block(function Title() {
         <NavBlock />
 
         <div>
-          <div class="h-screen w-screen ">
+          <div class="h-screen w-screen">
             <div class="h-screen mr-auto place-self-center">
               {/* divide-transparent */}
               <p className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[100px] text-gray-100 text-center mt-24">
