@@ -2,7 +2,7 @@ import React from "react";
 import { block } from "million";
 const ContactBlock = block(function Contact() {
   return (
-    <div className="relative">
+    <div id="contact" className="relative">
       <footer className="footer p-10 bg-[#000] ">
         {/* flex justify-center */}
 

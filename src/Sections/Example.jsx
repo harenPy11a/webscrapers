@@ -41,7 +41,7 @@ const ExampleBlock = block(function Example() {
   
   return (
 
-    <div className="flex flex-col lg:flex-row bg-[#ede5d8]">
+    <div id="example" className="flex flex-col lg:flex-row bg-[#ede5d8]">
     
       <div className="xl:w-[870px] xl:h-[780px] w-screen h-[500px] m-2 py-4 px-4 xl:pb-16 relative group">      
         <div
