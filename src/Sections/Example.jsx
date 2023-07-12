@@ -37,7 +37,7 @@ const ExampleBlock = block(function Example() {
   };
 
   return (
-    <div id="example" className="flex flex-col lg:flex-row bg-[#c0b7b1]">
+    <div id="example" className="flex flex-col lg:flex-row bg-[#cfcfcf]">
       <div className="xl:w-[870px] xl:h-[780px] w-screen h-[500px] m-2 py-4 px-4 xl:pb-16 relative group">
         <div
           style={{ backgroundImage: `url(${picslides[currentIndex].url})` }}
@@ -77,13 +77,13 @@ const ExampleBlock = block(function Example() {
         </div>
 
         <div className="py-1">
-          <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-black bg-[#000] rounded-full">
+          <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-[#000] rounded-full">
             Non-profit
           </span>
-          <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-black bg-[#000] rounded-full">
+          <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-[#000] rounded-full">
             Cultural
           </span>
-          <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-black bg-[#000] rounded-full">
+          <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-[#000] rounded-full">
             Volunteering
           </span>
 
