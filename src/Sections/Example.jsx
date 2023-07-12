@@ -84,13 +84,13 @@ const ExampleBlock = block(function Example() {
           </div>
 
           <div className="py-1">
-            <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-black bg-[#000] rounded-full">
+            <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-[#000] rounded-full">
               Non-profit
             </span>
-            <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-black bg-[#000] rounded-full">
+            <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-[#000] rounded-full">
               Cultural
             </span>
-            <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-black bg-[#000] rounded-full">
+            <span class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-white bg-[#000] rounded-full">
               Volunteering
             </span>
 
