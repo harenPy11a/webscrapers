@@ -40,7 +40,7 @@ const features = [
 
 const DescriptionBlock = block(function Description() {
   return (
-    <div id="description" className="bg-[#ffffff] relative">
+    <div id="description" className="bg-[#fffdf5] relative">
       <div className="mx-auto grid max-w-screen grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black">
@@ -60,7 +60,9 @@ const DescriptionBlock = block(function Description() {
                 key={feature.name}
                 className="border-b-2 border-gray-600 pb-4 text-[#695B55]"
               >
-                <dt className="font-extrabold text-lg text-[#695B55]}">{feature.name}</dt>
+                <dt className="font-extrabold text-lg text-[#695B55]}">
+                  {feature.name}
+                </dt>
                 <dd className="mt-2 text-md text-black">
                   {feature.description}
                 </dd>
