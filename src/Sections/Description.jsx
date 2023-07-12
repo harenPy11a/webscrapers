@@ -46,7 +46,7 @@ const DescriptionBlock = block(function Description() {
             <span class="font-bold text-[#695B55]">your</span> needs. We strive
             to fulfill the goals of{" "}
             <span class="font-bold text-[#695B55]">your</span> website in the
-            way that <span class="text-[#695B55]">you</span> want it.
+            way that <span class="font-bold text-[#695B55]">you</span> want it.
           </p>
 
           <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -55,8 +55,8 @@ const DescriptionBlock = block(function Description() {
                 key={feature.name}
                 className="border-b-2 border-gray-600 pb-4 text-[#695B55]"
               >
-                <dt className="font-medium text-[#695B55]}">{feature.name}</dt>
-                <dd className="mt-2 text-sm text-black">
+                <dt className="font-extrabold text-lg text-[#695B55]}">{feature.name}</dt>
+                <dd className="mt-2 text-md text-black">
                   {feature.description}
                 </dd>
               </div>

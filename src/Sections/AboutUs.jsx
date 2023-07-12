@@ -14,18 +14,18 @@ const AboutUsBlock = block(function AboutUs() {
 
 
   return (
-    <section class="bg-[#968f89]">
+    <section class="bg-[#ffffff]">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">Our Team</h1>
 
-        <p class="max-w-2xl mx-auto my-6 text-center text-black ">
+        <p class="max-w-2xl mx-auto my-6 text-center text-xl text-black ">
           Our passionate and dedicated team exists to serve 
           <span class="text-[#695B55] font-bold"> You</span>
           .
         </p>
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#000000] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={hpIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Haren Pylla</h1>
@@ -62,7 +62,7 @@ const AboutUsBlock = block(function AboutUs() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#000000] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={skIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Sahil Khunt</h1>
@@ -99,7 +99,7 @@ const AboutUsBlock = block(function AboutUs() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#000000] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={vpIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Vedant Patel</h1>
@@ -136,7 +136,7 @@ const AboutUsBlock = block(function AboutUs() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#000000] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={asIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Avi Shah</h1>
