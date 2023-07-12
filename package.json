@@ -13,6 +13,7 @@
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "daisyui": "^3.2.1",
+    "firebase": "^10.0.0",
     "heroicons": "^2.0.18",
     "i": "^0.3.7",
     "million": "^2.4.9",
