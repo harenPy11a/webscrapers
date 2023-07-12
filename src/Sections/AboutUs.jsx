@@ -14,7 +14,7 @@ const AboutUsBlock = block(function AboutUs() {
 
 
   return (
-    <section class="bg-[#F4F1EC]">
+    <section class="bg-[#968f89]">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">Our Team</h1>
 
@@ -25,15 +25,15 @@ const AboutUsBlock = block(function AboutUs() {
         </p>
 
         <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={hpIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Haren Pylla</h1>
 
-                <p class="mt-2 text-gray-600 capitalize group-hover:text-gray-300">Developer</p>
+                <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">Developer</p>
 
                 <div class="flex mt-3 -mx-2">
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -42,7 +42,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -51,7 +51,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -62,15 +62,15 @@ const AboutUsBlock = block(function AboutUs() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={skIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Sahil Khunt</h1>
 
-                <p class="mt-2 text-gray-600 capitalize group-hover:text-gray-300">Developer</p>
+                <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">Developer</p>
 
                 <div class="flex mt-3 -mx-2">
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -79,7 +79,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -88,7 +88,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -99,15 +99,15 @@ const AboutUsBlock = block(function AboutUs() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={vpIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Vedant Patel</h1>
 
-                <p class="mt-2 text-gray-600 capitalize group-hover:text-gray-300">Developer</p>
+                <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">Developer</p>
 
                 <div class="flex mt-3 -mx-2">
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -116,7 +116,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -125,7 +125,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -136,15 +136,15 @@ const AboutUsBlock = block(function AboutUs() {
                 </div>
             </div>
 
-            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] dark:border-gray-700 dark:hover:border-transparent">
+            <div class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#695B55] border-2 dark:border-gray-700 dark:hover:border-transparent">
                 <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src={asIMG} alt=""></img>
 
                 <h1 class="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Avi Shah</h1>
 
-                <p class="mt-2 text-gray-600 capitalize group-hover:text-gray-300">Client Relations</p>
+                <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">Client Relations</p>
 
                 <div class="flex mt-3 -mx-2">
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Reddit">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -153,7 +153,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -162,7 +162,7 @@ const AboutUsBlock = block(function AboutUs() {
                         </svg>
                     </a>
 
-                    <a href="#" class="mx-2 text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
+                    <a href="#" class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Github">
                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path

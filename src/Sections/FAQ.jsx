@@ -40,18 +40,18 @@ const info = [
 
 const FAQBlock = block(function FAQ() {
   return (
-    <div class="w-screen mx-auto px-5 relative pt-10 pb-18 bg-[#F4F1EC] min-h-sceen ">
+    <div class="w-screen mx-auto px-5 relative pt-10 pb-18 bg-[#000] min-h-screen">
       <div class="flex flex-col items-center">
-        <h2 class="font-bold text-5xl mt-5 tracking-tight pb-10 text-[#695B55] text-center">
-          Frequenty asked questions
+        <h2 class="font-bold text-5xl mt-5 tracking-tight pb-10 text-[#fff] text-center">
+          Frequenty Asked Questions
         </h2>
       </div>
-      <div class="grid divide-y divide-black max-w-xl mx-auto mt-8 ">
+      <div class="grid divide-y divide-white max-w-xl mx-auto mt-8 ">
         {info.map((data) => (
-          <div class="py-5 lg:-translate-x-[205px] lg:-translate-y-[25px] lg:w-[1000px]">
-            <details class="group">
-              <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                <span className="text-black font-bold text-xl">
+          <div class="py-3 lg:-translate-x-[205px] lg:-translate-y-[25px] lg:w-[1000px]">
+            <details class="group border-t-[1px] border-[#474747] ">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none ">
+                <span className="text-white font-bold text-xl pt-6">
                   {data.question}
                 </span>
                 <span class="transition group-open:rotate-180">
@@ -59,7 +59,7 @@ const FAQBlock = block(function FAQ() {
                     fill="none"
                     height="24"
                     shape-rendering="geometricPrecision"
-                    stroke="currentColor"
+                    stroke="#fff"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="1.5"
@@ -70,14 +70,21 @@ const FAQBlock = block(function FAQ() {
                   </svg>
                 </span>
               </summary>
-              <p class=" mt-3 group-open:animate-fadeIn text-[#b5b5b5]">
+              <p class=" mt-6 group-open:animate-fadeIn text-[#fff]">
                 {data.answer}
               </p>
             </details>
           </div>
         ))}
       </div>
-      {/* <div class="divider"></div> */}
+      {/* <div class="pt-16 pb-4 flex justify-center">
+        <div class="bg-[#474747] lg:w-[1300px] lg:h-[1px]">
+        </div>
+      </div> */}
+      <div class="pt-4 pb-4 flex justify-center">
+        {/* <div class="bg-[#474747] lg:w-[1300px] lg:h-[1px]"> */}
+        {/* </div> */}
+      </div>
     </div>
   );
 });
