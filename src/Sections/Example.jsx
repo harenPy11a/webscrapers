@@ -38,9 +38,10 @@ const ExampleBlock = block(function Example() {
 
   return (
     <div id="ourwork">
-      <p className="bg-[#695e59] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-[#fff] text-center ">
+      {/* <p className="bg-[#fffdf5] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-black text-center ">
         Don't Believe us Yet?
-      </p>
+      </p> */}
+      <p className="bg-[#fffdf5] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-black text-center "></p>
 
       <div id="example" className="flex flex-col lg:flex-row bg-[#fffdf5]">
         <div className="xl:w-[870px] xl:h-[780px] w-screen h-[500px] m-2 py-4 px-4 xl:pb-16 relative group">
