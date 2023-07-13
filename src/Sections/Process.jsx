@@ -10,11 +10,12 @@ const ProcessBlock = block(function Process() {
               <p class="ml-2 text-[#bfa79d] uppercase tracking-loose">
                 Our Process
               </p>
-              <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">
+              <p class="text-3xl md:text-5xl leading-normal md:leading-relaxed mb-2">
                 What we can do for you
               </p>
               <p class="text-sm md:text-base text-gray-50 mb-4">
-                Here’s our process on how we deliver
+              Here at Webscrapers, we take pride in our ability to provide you with transparency throughout our discussions together. We ensure that you and your business are set on the right track for success.
+
               </p>
             </div>
             <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
@@ -31,43 +32,37 @@ const ProcessBlock = block(function Process() {
                   <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1 w-5/12 px-1 py-4 text-right">
-                      <p class="mb-3 text-base text-[#bfa79d]">1-6 May, 2021</p>
+                      <p class="mb-3 text-base text-[#bfa79d]">Step 1</p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                        Registration
+                      Contact
                       </h4>
-                      <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Pick your favourite event(s) and register in that event
-                        by filling the form corresponding to that event. Its
-                        that easy :)
+                      <p class="pl-9 text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                      We will reach out to you and gather the necessary information to build a sketch of the website. We then will show you past projects and templates to understand your likings and wants to help build a clean and fast end product.
                       </p>
                     </div>
                   </div>
                   <div class="mb-8 flex justify-between items-center w-full right-timeline">
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1  w-5/12 px-1 py-4 text-left">
-                      <p class="mb-3 text-base text-[#bfa79d]">6-9 May, 2021</p>
+                      <p class="mb-3 text-base text-[#bfa79d]">Step 2</p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                        Participation
+                      Evaluate
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Participate online. The links for your registered events
-                        will be sent to you via email and whatsapp groups. Use
-                        those links and show your talent.
+                      We then will talk about pricing and the different services that we will provide. We then will see what your Brand does in the specific niche and how we can support your brand to grow and succeed.
+
                       </p>
                     </div>
                   </div>
                   <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1 w-5/12 px-1 py-4 text-right">
-                      <p class="mb-3 text-base text-[#bfa79d]"> 10 May, 2021</p>
+                      <p class="mb-3 text-base text-[#bfa79d]">Step 3</p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                        Result Declaration
+                        Plan
                       </h4>
-                      <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        The ultimate genius will be revealed by our judging
-                        panel on 10th May, 2021 and the resukts will be
-                        announced on the whatsapp groups and will be mailed to
-                        you.
+                      <p class="pl-3 text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                      After the initial talks, we will create a specialized development plan that details the path that our team will set on together in the following weeks. 
                       </p>
                     </div>
                   </div>
@@ -76,22 +71,20 @@ const ProcessBlock = block(function Process() {
                     <div class="order-1 w-5/12"></div>
 
                     <div class="order-1  w-5/12 px-1 py-4">
-                      <p class="mb-3 text-base text-[#bfa79d]">12 May, 2021</p>
+                      <p class="mb-3 text-base text-[#bfa79d]">Step 4</p>
                       <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
-                        Prize Distribution
+                        Deploy
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        The winners will be contacted by our team for their
-                        addresses and the winning goodies will be sent at their
-                        addresses.
+                      We touch on what we have made so far and give you a chance to propose any revisions. Then we make slight changes, before publishing to your domain.
                       </p>
                     </div>
                   </div>
                 </div>
-                <img
+                {/* <img
                   class="mx-auto -mt-36 md:-mt-36"
                   src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
-                />
+                /> */}
               </div>
             </div>
           </div>

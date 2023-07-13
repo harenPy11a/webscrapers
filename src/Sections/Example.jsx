@@ -38,7 +38,7 @@ const ExampleBlock = block(function Example() {
 
   return (
     <div id="ourwork">
-      <p className="bg-[#695e59] py-12 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-[#fff] text-center ">
+      <p className="bg-[#695e59] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-[#fff] text-center ">
         Don't Believe us Yet?
       </p>
 
