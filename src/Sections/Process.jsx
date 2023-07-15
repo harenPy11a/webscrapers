@@ -14,8 +14,10 @@ const ProcessBlock = block(function Process() {
                 What we can do for you
               </p>
               <p class="text-sm md:text-base text-gray-50 mb-4">
-              Here at Webscrapers, we take pride in our ability to provide you with transparency throughout our discussions together. We ensure that you and your business are set on the right track for success.
-
+                Here at Webscrapers, we take pride in our ability to provide you
+                with transparency throughout our discussions together. We ensure
+                that you and your business are set on the right track for
+                success.
               </p>
             </div>
             <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
@@ -29,54 +31,63 @@ const ProcessBlock = block(function Process() {
                     class="border-2-2 border-yellow-555 absolute h-full border"
                     style="left: 50%; border: 2px solid #FFC100; border-radius: 1%;"
                   ></div>
-                  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div class="order-1 w-5/12"></div>
-                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+                  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full right-timeline lg:left-timeline bg-gray-800">
+                    <div class="order-1 lg:w-5/12"></div>
+                    <div class="order-1 lg:w-5/12 px-1 py-4 text-right bg-gray-700">
                       <p class="mb-3 text-base text-[#bfa79d]">Step 1</p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                      Contact
+                        Contact
                       </h4>
                       <p class="pl-9 text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      We will reach out to you and gather the necessary information to build a sketch of the website. We then will show you past projects and templates to understand your likings and wants to help build a clean and fast end product.
+                        We will reach out to you and gather the necessary
+                        information to build a sketch of the website. We then
+                        will show you past projects and templates to understand
+                        your likings and wants to help build a clean and fast
+                        end product.
                       </p>
                     </div>
                   </div>
-                  <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div class="order-1 w-5/12"></div>
-                    <div class="order-1  w-5/12 px-1 py-4 text-left">
+
+                  <div class="mb-8 flex justify-between items-center w-full left-timeline lg:right-timeline ml-2 lg:ml-0">
+                    <div class="order-1 lg:w-5/12"></div>
+                    <div class="order-1 lg:w-5/12 px-1 py-4 text-left">
                       <p class="mb-3 text-base text-[#bfa79d]">Step 2</p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                      Evaluate
+                        Evaluate
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      We then will talk about pricing and the different services that we will provide. We then will see what your Brand does in the specific niche and how we can support your brand to grow and succeed.
-
+                        We then will talk about pricing and the different
+                        services that we will provide. We then will see what
+                        your Brand does in the specific niche and how we can
+                        support your brand to grow and succeed.
                       </p>
                     </div>
                   </div>
-                  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                    <div class="order-1 w-5/12"></div>
-                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+
+                  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full right-timeline lg:left-timeline">
+                    <div class="order-1 lg:w-5/12"></div>
+                    <div class="order-1 lg:w-5/12 px-1 py-4 text-right">
                       <p class="mb-3 text-base text-[#bfa79d]">Step 3</p>
-                      <h4 class="mb-3 font-bold text-lg md:text-2xl">
-                        Plan
-                      </h4>
+                      <h4 class="mb-3 font-bold text-lg md:text-2xl">Plan</h4>
                       <p class="pl-3 text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      After the initial talks, we will create a specialized development plan that details the path that our team will set on together in the following weeks. 
+                        After the initial talks, we will create a specialized
+                        development plan that details the path that our team
+                        will set on together in the following weeks.
                       </p>
                     </div>
                   </div>
 
-                  <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div class="order-1 w-5/12"></div>
-
-                    <div class="order-1  w-5/12 px-1 py-4">
+                  <div class="mb-8 flex justify-between items-center w-full left-timeline lg:right-timeline ml-2 lg:ml-0">
+                    <div class="order-1 lg:w-5/12"></div>
+                    <div class="order-1 lg:w-5/12 px-1 py-4">
                       <p class="mb-3 text-base text-[#bfa79d]">Step 4</p>
-                      <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
+                      <h4 class="mb-3 font-bold text-lg md:text-2xl text-left">
                         Deploy
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      We touch on what we have made so far and give you a chance to propose any revisions. Then we make slight changes, before publishing to your domain.
+                        We touch on what we have made so far and give you a
+                        chance to propose any revisions. Then we make slight
+                        changes, before publishing to your domain.
                       </p>
                     </div>
                   </div>
