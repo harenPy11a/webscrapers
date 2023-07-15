@@ -9,32 +9,32 @@ const features = [
   {
     name: "Team",
     description:
-      "Small team size fully commited to helping one business at a time.",
+      "Small team size fully commited to helping one business at a time. Our attention is on you and you only.",
   },
   {
     name: "Personalization",
     description:
-      "Our work will always include you. The whole process will be guided by your wishes.",
+      "Our work will always include you. The whole process will be guided by your goals.",
   },
   {
     name: "Pricing",
     description:
-      "With a flat fee of $0 to build the website, we will only charge you for the domain costs.",
+      "With reasonable pricing, we'll ensure that our evaluations secure you with a good product at a low cost.",
   },
   {
     name: "Timing",
     description:
-      "Our team will be dedicated to ensure that your deadlines are accomplished.",
+      "Our team is dedicated to ensure that your deadlines are met. For us, timing is everything.",
   },
   {
     name: "Flexibility",
     description:
-      "With a small team of 3 developers, we will are flexible to your specifications.",
+      "Our team is willing to adapt for your needs. Our service gives you limitless freedom to fulfill your vision.",
   },
   {
     name: "Passion",
     description:
-      "Our work is not guided by money and instead serves to fulfill our passion.",
+      "Our guarantee is that our team will give you consistent enthusiasm no matter the occasion.",
   },
 ];
 

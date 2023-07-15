@@ -37,7 +37,7 @@ const ProcessBlock = block(function Process() {
                       Contact
                       </h4>
                       <p class="pl-9 text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      We will reach out to you and gather the necessary information to build a sketch of the website. We then will show you past projects and templates to understand your likings and wants to help build a clean and fast end product.
+                        Our initial activities allow you to direct the rest of our developement plan. Using your initial ideas, and any new ones we create in this period, we'll get a feel for your wants and needs.
                       </p>
                     </div>
                   </div>
@@ -49,8 +49,7 @@ const ProcessBlock = block(function Process() {
                       Evaluate
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      We then will talk about pricing and the different services that we will provide. We then will see what your Brand does in the specific niche and how we can support your brand to grow and succeed.
-
+                        Once you get a feel for our initial plan, our team will give you a quote on the pricing for the task. To ensure your satisfaction, we'll involve you in the discussion.
                       </p>
                     </div>
                   </div>
@@ -62,7 +61,7 @@ const ProcessBlock = block(function Process() {
                         Plan
                       </h4>
                       <p class="pl-3 text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      After the initial talks, we will create a specialized development plan that details the path that our team will set on together in the following weeks. 
+                      After the initial talks, we'll create a specialized development plan that details the path that our team will set on together in the following weeks. 
                       </p>
                     </div>
                   </div>

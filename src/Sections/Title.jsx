@@ -25,7 +25,7 @@ const TitleBlock = block(function Title() {
               </p>
               <p className="mx-auto max-w-xl font-light text-gray-500 md:text-lg lg:text-2xl dark:text-gray-400 text-center mt-16">
                 Flexible to your needs, our Webscrapers team will build you a
-                website that catches your target audience's attention and grows
+                website that catches your target audiences' attention and grows
                 your platform.
               </p>
             </div>
