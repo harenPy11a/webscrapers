@@ -4,9 +4,10 @@ import logo from "./Assets/logo5.png";
 import { block } from "million";
 
 const navigation = [
-  { name: "About Us", href: "#aboutus", current: false },
   { name: "Description", href: "#description", current: false },
+  {name: "Methodology", href: "#process", current: false },
   { name: "Our Work", href: "#ourwork", current: false },
+  { name: "Our Team", href: "#aboutus", current: false },
   { name: "FAQ", href: "#faq", current: false },
   { name: "Contact", href: "#contact", current: false },
 ];
