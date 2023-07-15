@@ -14,7 +14,7 @@ const info = [
   {
     question: "How do we invole you?",
     answer:
-      "With quick respond times from our developers, we'll ensure that you recieve the closure you need while we develop your site. Additionally, we allow you to oversee our day by day changes, giving you the ability to influence our immediate actions. Our developers are always open to hearing your thoughts, and we will be flexible to your times when it comes to meetings, updates, and follow-ups.",
+      "With quick respond times from our developers, we'll ensure that you recieve the closure you need while we develop your site. Additionally, we allow you to oversee our day by day changes, giving you the ability to influence our immediate actions. Our developers are always open to hearing your thoughts, and we'll be flexible to your times when it comes to meetings, updates, and follow-ups.",
   },
   {
     question: "How do we guarantee your satisfaction?",
