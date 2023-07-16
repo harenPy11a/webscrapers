@@ -4,46 +4,47 @@ import desc3 from "./Assets/desc3.jpg";
 import desc2 from "./Assets/desc2.jpg";
 import desc5 from "./Assets/desc5.jpg";
 import desc4 from "./Assets/desc4.jpg";
+import desc6 from "./Assets/desc6.jpg";
 
 const features = [
   {
     name: "Team",
     description:
-      "Small team size fully commited to helping one business at a time. Our attention is on you and you only.",
+      "Small team size fully commited to helping one business at a time.",
   },
   {
     name: "Personalization",
     description:
-      "Our work will always include you. The whole process will be guided by your goals.",
+      "Our work will always include you. The whole process will be guided by your wishes.",
   },
   {
     name: "Pricing",
     description:
-      "With reasonable pricing, we'll ensure that our evaluations secure you with a good product at a low cost.",
+      "With a flat fee of $0 to build the website, we will only charge you for the domain costs.",
   },
   {
     name: "Timing",
     description:
-      "Our team is dedicated to ensure that your deadlines are met. For us, timing is everything.",
+      "Our team will be dedicated to ensure that your deadlines are accomplished.",
   },
   {
     name: "Flexibility",
     description:
-      "Our team is willing to adapt for your needs. Our service gives you limitless freedom to fulfill your vision.",
+      "With a small team of 3 developers, we will are flexible to your specifications.",
   },
   {
     name: "Passion",
     description:
-      "Our guarantee is that our team will give you consistent enthusiasm no matter the occasion.",
+      "Our work is not guided by money and instead serves to fulfill our passion.",
   },
 ];
 
 const DescriptionBlock = block(function Description() {
   return (
     <div id="description" className="bg-[#fffdf5] relative">
-      <div className="mx-auto grid max-w-screen grid-cols-1 lg:items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+      <div className="mx-auto grid max-w-screen grid-cols-1 lg:items-center gap-x-8 gap-y-4 lg:gap-y-16 px-4 sm:px-6 pt-8 lg:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
-          <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black mt-4 lg:mt-0 lg:mb-8 text-center">
+          <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black sm:text-center mt-4 lg:mt-0 ">
             What We Provide
           </h2>
           <p className="mt-4 lg:text-2xl text-xl text-black">
@@ -71,28 +72,28 @@ const DescriptionBlock = block(function Description() {
           </dl>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-          <div>
+          <div className="invisible lg:visible h-0 lg:h-full">
             <img
               src={desc4}
               alt="Stock Photo"
               className="rounded-lg bg-gray-100"
             />
           </div>
-          <div>
+          <div className="invisible lg:visible h-0 lg:h-full">
             <img
               src={desc2}
               alt="Stock Photo"
               className="rounded-lg bg-gray-100"
             />
           </div>
-          <div>
+          <div className="invisible lg:visible h-0 lg:h-full">
             <img
               src={desc3}
               alt="Stock Photo"
               className="rounded-lg bg-gray-100"
             />
           </div>
-          <div>
+          <div className="invisible lg:visible h-0 lg:h-full">
             <img
               src={desc5}
               alt="Stock Photo"
@@ -100,6 +101,13 @@ const DescriptionBlock = block(function Description() {
             />
           </div>
         </div>
+      </div>
+      <div className="h-5/6">
+        <img
+          src={desc6}
+          alt="Stock Photo"
+          className="visible lg:invisible lg:pb-0 lg:h-0 "
+        />
       </div>
     </div>
   );
