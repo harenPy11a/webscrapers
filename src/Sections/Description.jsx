@@ -41,9 +41,9 @@ const features = [
 const DescriptionBlock = block(function Description() {
   return (
     <div id="description" className="bg-[#fffdf5] relative">
-      <div className="mx-auto grid max-w-screen grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+      <div className="mx-auto grid max-w-screen grid-cols-1 lg:items-center gap-x-8 gap-y-16 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
-          <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black">
+          <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-grey-900 text-black mt-4 lg:mt-0 lg:mb-8 text-center">
             What We Provide
           </h2>
           <p className="mt-4 lg:text-2xl text-xl text-black">
@@ -70,27 +70,35 @@ const DescriptionBlock = block(function Description() {
             ))}
           </dl>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8 ">
-          <img
-            src={desc4}
-            alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="rounded-lg bg-gray-100"
-          />
-          <img
-            src={desc2}
-            alt="Top down view of walnut card tray with embedded magnets and card groove."
-            className="rounded-lg bg-gray-100"
-          />
-          <img
-            src={desc3}
-            alt="Side of walnut card tray with card groove and recessed card area."
-            className="rounded-lg bg-gray-100"
-          />
-          <img
-            src={desc5}
-            alt="Walnut card tray filled with cards and card angled in dedicated groove."
-            className="rounded-lg bg-gray-100"
-          />
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+          <div>
+            <img
+              src={desc4}
+              alt="Stock Photo"
+              className="rounded-lg bg-gray-100"
+            />
+          </div>
+          <div>
+            <img
+              src={desc2}
+              alt="Stock Photo"
+              className="rounded-lg bg-gray-100"
+            />
+          </div>
+          <div>
+            <img
+              src={desc3}
+              alt="Stock Photo"
+              className="rounded-lg bg-gray-100"
+            />
+          </div>
+          <div>
+            <img
+              src={desc5}
+              alt="Stock Photo"
+              className="rounded-lg bg-gray-100"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -98,3 +106,5 @@ const DescriptionBlock = block(function Description() {
 });
 
 export default DescriptionBlock;
+
+//className="invisible md:visible"
