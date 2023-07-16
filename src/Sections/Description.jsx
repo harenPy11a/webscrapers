@@ -72,6 +72,7 @@ const DescriptionBlock = block(function Description() {
           </dl>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+        
           <div className="invisible lg:visible h-0 lg:h-full">
             <img
               src={desc4}

@@ -6,7 +6,7 @@ import NavBlock from "./Navbar";
 const TitleBlock = block(function Title() {
   return (
     <div className="Title">
-      <div className="absolute h-screen w-screen">
+      <div className="invisible lg:visible absolute h-screen w-screen">
         <ParticleBlock></ParticleBlock>
       </div>
 
@@ -14,16 +14,16 @@ const TitleBlock = block(function Title() {
         <NavBlock />
 
         <div>
-          <div class="h-screen w-screen">
-            <div class="h-screen mr-auto place-self-center">
+          <div class="h-[20px] lg:h-screen w-screen">
+            <div class="mr-auto place-self-center">
               {/* divide-transparent */}
-              <p className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[100px] text-gray-100 text-center mt-24">
+              <p className="text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[100px] text-gray-100 text-center md:mt-24 mt-10">
                 Webscrapers
               </p>
-              <p className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[65px] text-[#695B55] text-center mt-16">
+              <p className="text-[26px] font-extrabold tracking-tight leading-none md:text-5xl xl:text-[65px] text-[#695B55] text-center md:mt-16 mt-6">
                 Building Websites Made Easy
               </p>
-              <p className="mx-auto max-w-xl font-light text-gray-500 md:text-lg lg:text-2xl dark:text-gray-400 text-center mt-16">
+              <p className="mx-auto max-w-xl font-light text-gray-500 md:text-lg lg:text-2xl dark:text-gray-400 text-center mt-6">
                 Flexible to your needs, our Webscrapers team will build you a
                 website that catches your target audiences' attention and grows
                 your platform.
