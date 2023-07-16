@@ -22,7 +22,9 @@ const ContactBlock = block(function Contact() {
             </a>
           </div>
           <div className="flex flex-col">
-            <div className="font-semibold text-lg text-[#fff] ">Contact</div>
+            <div className="font-semibold text-lg text-[#fff] mt-6 lg:mt-0">
+              Contact
+            </div>
             <a className="text-white pt-2 pb-1">
               webscrapers.contact@gmail.com
             </a>
