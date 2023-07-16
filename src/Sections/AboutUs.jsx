@@ -47,7 +47,7 @@ const AboutUsBlock = block(function AboutUs() {
   return (
     <div>
       <section id="aboutus" class="bg-[#9e9791]">
-        <div class="container px-6 pt-24 pb-52 mx-auto">
+        <div class="container px-6 pt-8 lg:pt-24 pb-16 lg:pb-52 mx-auto">
           <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">
             Our Team
           </h1>
