@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <TitleBlock />
-      <div className="pb-[950px] bg-[#121212] w-[screen]"></div>
+      <div className="pb-[500px] lg:pb-[950px] bg-[#121212] w-[screen]"></div>
       <DescriptionBlock />
       <ProcessBlock />
       <ExampleBlock />
