@@ -57,8 +57,8 @@ const AboutUsBlock = block(function AboutUs() {
             <span class="text-[#ffffff] font-bold"> You</span>
           </p>
 
-          <div class="grid grid-cols-2 gap-4 lg:gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
+          <div class="grid grid-cols-2 gap-4 lg:gap-8 mt-8 xl:mt-16 xl:gap-24 md:grid-cols-2 xl:grid-cols-3">
+            <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src={hpIMG}
@@ -283,7 +283,7 @@ const AboutUsBlock = block(function AboutUs() {
               </div>
             </div>
 
-            <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
+            {/* <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
                 src={asIMG}
@@ -342,7 +342,7 @@ const AboutUsBlock = block(function AboutUs() {
                   </svg>{" "}
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
