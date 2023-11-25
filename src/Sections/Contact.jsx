@@ -5,37 +5,79 @@ import contactIMG from "./Assets/contactus.jpeg";
 
 const ContactBlock = block(function Contact() {
   return (
-<form class="flex w-full max-w-sm space-x-3">
-    <div class="w-full max-w-2xl px-5 py-10 m-auto mt-10 bg-white rounded-lg shadow dark:bg-gray-800">
-        <div class="mb-6 text-3xl font-light text-center text-gray-800 dark:text-white">
-            Contact us !
-        </div>
-        <div class="grid max-w-xl grid-cols-2 gap-4 m-auto">
-            <div class="col-span-2 lg:col-span-1">
-                <div class=" relative ">
-                    <input type="text" id="contact-form-name" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Name"/>
-                    </div>
+    <div id="contact" className="relative"> 
+      <section className="text-slate-50 body-font relative bg-gray-900">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-col text-center w-full mb-12">
+            <h1 className="sm:text-5xl text-4xl font-medium title-font mb-4 text-slate-50">
+              Work With Us
+            </h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Tell us your idea in the contact form below and we can get in touch to make your website come to life.
+            </p>
+          </div>
+          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+            <div className="flex flex-wrap -m-2">
+              <div className="p-2 w-1/2">
+                <div className="relative">
+                  <label for="name" className="leading-7 text-sm text-slate-100">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
                 </div>
-                <div class="col-span-2 lg:col-span-1">
-                    <div class=" relative ">
-                        <input type="text" id="contact-form-email" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="email"/>
-                        </div>
-                    </div>
-                    <div class="col-span-2">
-                        <label class="text-gray-700" for="name">
-                            <textarea class="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" id="comment" placeholder="Enter your comment" name="comment" rows="5" cols="40">
-                            </textarea>
-                        </label>
-                    </div>
-                    <div class="col-span-2 text-right">
-                        <button type="submit" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                            Send
-                        </button>
-                    </div>
+              </div>
+              <div className="p-2 w-1/2">
+                <div className="relative">
+                  <label
+                    for="email"
+                    className="leading-7 text-sm text-slate-100"
+                  >
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
                 </div>
+              </div>
+              <div className="p-2 w-full">
+                <div className="relative">
+                  <label
+                    for="message"
+                    className="leading-7 text-sm text-slate-100"
+                  >
+                    Your Idea
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+              </div>
+              <div className="p-2 w-full">
+                <button class="flex mx-auto bg-amber-900 hover:bg-amber-700 text-white font-bold py-2 px-4 border-b-4 border-amber-800 hover:border-amber-600 rounded">
+                  Submit
+                </button>
+              </div>
+              <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a className="text-indigo-500">atandanny2016@gmail.com</a>
+                <p className="leading-normal my-5">
+                  Based in Chicago, IL
+                </p>
+              </div>
             </div>
-        </form>
-
+          </div>
+        </div>
+      </section>
+    </div>
 
       );
 });
