@@ -45,7 +45,7 @@ const features = [
 const DescriptionBlock = block(function Description() {
   return (
     <div id="description" className="bg-[#9e9791] relative">
-      {/* <NavBlock /> */}
+      <NavBlock />
 
       <div className="mx-auto grid max-w-screen grid-cols-1 lg:items-center gap-x-8 gap-y-4 lg:gap-y-16 px-4 sm:px-6 pt-8 lg:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>

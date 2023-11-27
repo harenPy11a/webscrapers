@@ -9,8 +9,8 @@ const navigation = [
   { name: "Description", href: "description", current: false },
   { name: "Methodology", href: "process", current: false },
   { name: "Our Work", href: "ourwork", current: false },
-  { name: "Our Team", href: "aboutus", current: false },
   { name: "FAQ", href: "faq", current: false },
+  { name: "Our Team", href: "aboutus", current: false },
   // { name: "Contact", href: "contact", current: false },
 ];
 
@@ -27,7 +27,7 @@ const NavBlock = block(function Navbar() {
   };
 
   return (
-    <div className="sticky top-0">
+    <div className=" top-0">
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
