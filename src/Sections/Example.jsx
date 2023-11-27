@@ -94,7 +94,7 @@ const ExampleBlock = block(function Example() {
             </span>
 
             <div className="py-8">
-              <p class="text-[#fff]">
+              {/* <p class="text-[#fff]">
                 <a
                   href="https://www.indiahub.org"
                   class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -114,7 +114,7 @@ const ExampleBlock = block(function Example() {
                     ></path>
                   </svg>
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
