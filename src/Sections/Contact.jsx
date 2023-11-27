@@ -1,12 +1,35 @@
-import React from "react";
+import React, { useState , useRef} from "react";
 import { block } from "million";
-
-import contactIMG from "./Assets/contactus.jpeg";
+import emailjs from '@emailjs/browser';
 
 const ContactBlock = block(function Contact() {
+  console.log('hellooo');
+  const[result, showResult] = useState(false);
+  const form = useRef();
+
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log('Form submitted');
+    
+
+    emailjs.sendForm('service_w2x8kdj', 'template_mlkqy44', form.current, 'F3vuGXhU25FR3XsgJ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+      showResult(true);
+  };
+
+
   return (
+
+    
     <div id="contact" className="relative"> 
-      <section className="text-slate-50 body-font relative bg-gray-900">
+    <form action="" ref={form} onSubmit={sendEmail}>
+      <section className="text-slate-50 body-font relative bg-[#000]">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-5xl text-4xl font-medium title-font mb-4 text-slate-50">
@@ -26,7 +49,7 @@ const ContactBlock = block(function Contact() {
                   <input
                     type="text"
                     id="name"
-                    name="name"
+                    name="from_name"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -42,7 +65,7 @@ const ContactBlock = block(function Contact() {
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="reply_to"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
@@ -63,12 +86,12 @@ const ContactBlock = block(function Contact() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button class="flex mx-auto bg-amber-900 hover:bg-amber-700 text-white font-bold py-2 px-4 border-b-4 border-amber-800 hover:border-amber-600 rounded">
+                <button type="submit" class="flex mx-auto bg-stone-900 hover:bg-stone-700 text-white font-bold py-2 px-4 border-b-4 border-stone-800 hover:border-stone-600 rounded">
                   Submit
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">atandanny2016@gmail.com</a>
+                <a className="text-indigo-500">contact.webscrapers@gmail.com</a>
                 <p className="leading-normal my-5">
                   Based in Chicago, IL
                 </p>
@@ -77,6 +100,7 @@ const ContactBlock = block(function Contact() {
           </div>
         </div>
       </section>
+      </form>
     </div>
 
       );
