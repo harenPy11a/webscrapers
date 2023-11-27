@@ -28,7 +28,7 @@ const ContactBlock = block(function Contact() {
             <a className="text-white pt-2 pb-1">
               webscrapers.contact@gmail.com
             </a>
-            <a className="text-white pb-1">224-239-8445</a>
+            <a className="text-white pb-1">224-216-7117</a>
           </div>
         </div>
       </footer>
