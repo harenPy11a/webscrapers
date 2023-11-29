@@ -7,7 +7,7 @@ const ProcessBlock = block(function Process() {
     <div className="">
       <section id="process">
         <div class="bg-[#121212] text-white py-8">
-        <NavBlock />
+        {/* <NavBlock /> */}
 
           <div class="container mx-auto flex flex-col items-start md:flex-row lg:my-12 md:my-24">
             <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">

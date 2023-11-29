@@ -46,7 +46,7 @@ const FAQBlock = block(function FAQ() {
       id="faq"
       class="mx-auto px-5 relative pt-10 pb-18 bg-[#121212] pb-4 lg:mb-0 lg:min-h-screen"
     >
-      <NavBlock />
+      {/* <NavBlock /> */}
 
       <div class="flex flex-col items-center">
         <h2 class="font-bold text-4xl lg:text-5xl mt-5 tracking-tight lg:pb-10 text-[#fff] text-center">

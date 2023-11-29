@@ -48,7 +48,7 @@ const AboutUsBlock = block(function AboutUs() {
     <div>
 
       <section id="aboutus" class="bg-[#9e9791]">
-      <NavBlock />
+      {/* <NavBlock /> */}
 
         <div class="container px-6 pt-8 lg:pt-24 pb-12 lg:pb-32 mx-auto">
           <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">

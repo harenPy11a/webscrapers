@@ -40,7 +40,7 @@ const ExampleBlock = block(function Example() {
   return (
     <div id="ourwork" className="bg-[#9e9791]">
       
-      <NavBlock />
+      {/* <NavBlock /> */}
 
       <div id="example" className="flex flex-col lg:flex-row bg-[#9e9791]">
         

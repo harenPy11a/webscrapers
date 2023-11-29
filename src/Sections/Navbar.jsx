@@ -27,7 +27,7 @@ const NavBlock = block(function Navbar() {
   };
 
   return (
-    <div className=" top-0">
+    <div className="sticky top-0 z-50 h-full ">
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>

@@ -12,9 +12,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-
-      <TitleBlock />
+    <div className="bg-[#121212]">
+      <NavBlock/>
+      <TitleBlock/>
       <div className="pb-[500px] lg:pb-[800px] bg-[#121212] w-[screen]"></div>
       <DescriptionBlock />
       <ProcessBlock />
