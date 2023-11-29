@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import NavBlock from "./Navbar";
 
 import { block } from "million";
 
@@ -37,13 +38,11 @@ const ExampleBlock = block(function Example() {
   };
 
   return (
-    <div id="ourwork">
-      <p className="bg-[#b89e93] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-white text-center ">
-        Don't Believe us Yet?
-      </p>
-      <p className="bg-[#fffdf5] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-black text-center "></p>
+    <div id="ourwork" className="bg-[#9e9791]">
+      
 
-      <div id="example" className="flex flex-col lg:flex-row bg-[#fffdf5]">
+      <div id="example" className="flex flex-col lg:flex-row bg-[#9e9791]">
+        
         <div className="xl:w-[870px] xl:h-[780px] w-screen h-[500px] m-2 py-4 px-4 xl:pb-16 relative group">
           <div
             style={{ backgroundImage: `url(${picslides[currentIndex].url})` }}

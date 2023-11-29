@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import { block } from "million";
-
+import NavBlock from "./Navbar";
 import vpIMG from "./Assets/vp.jpg";
 import hpIMG from "./Assets/hp.jpg";
 import skIMG from "./Assets/sk.jpg";
@@ -46,7 +46,10 @@ const info = [
 const AboutUsBlock = block(function AboutUs() {
   return (
     <div>
+
       <section id="aboutus" class="bg-[#9e9791]">
+      {/* <NavBlock /> */}
+
         <div class="container px-6 pt-8 lg:pt-24 pb-12 lg:pb-32 mx-auto">
           <h1 class="text-4xl font-semibold text-center text-black capitalize lg:text-6xl">
             Our Team

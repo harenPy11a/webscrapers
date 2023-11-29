@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "daisyui": "^3.2.1",
+    "email-js": "^2.0.2",
     "firebase": "^10.0.0",
     "heroicons": "^2.0.18",
     "i": "^0.3.7",
@@ -21,6 +23,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-scroll": "^1.9.0",
     "react-tsparticles": "^2.10.1",
     "tsparticles": "^2.10.1"
   },

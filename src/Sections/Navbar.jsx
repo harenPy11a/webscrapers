@@ -1,23 +1,33 @@
+import React from 'react';
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Link } from 'react-scroll';
 import logo from "./Assets/logo5.png";
 import { block } from "million";
 
 const navigation = [
-  { name: "Description", href: "#description", current: false },
-  {name: "Methodology", href: "#process", current: false },
-  { name: "Our Work", href: "#ourwork", current: false },
-  { name: "Our Team", href: "#aboutus", current: false },
-  { name: "FAQ", href: "#faq", current: false },
-  { name: "Contact", href: "#contact", current: false },
+  { name: "Description", href: "description", current: false },
+  { name: "Methodology", href: "process", current: false },
+  { name: "Our Work", href: "ourwork", current: false },
+  { name: "FAQ", href: "faq", current: false },
+  { name: "Our Team", href: "aboutus", current: false },
+  { name: "Contact", href: "contact", current: false },
 ];
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 const NavBlock = block(function Navbar() {
+
+  const calculateDuration = (distance) => {
+    // Adjust the multiplier based on your preference
+    const multiplier = 0.4;
+    return Math.max(500, distance * multiplier);
+  };
+
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-50 h-full ">
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
@@ -51,9 +61,13 @@ const NavBlock = block(function Navbar() {
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <a
+                        <Link
                           key={item.name}
-                          href={item.href}
+                          to={item.href}
+                          spy={true}
+                          smooth={true}
+                          offset={0} // Adjust the offset based on your layout
+                          duration={calculateDuration}
                           className={classNames(
                             item.current
                               ? "bg-[#9897A9] text-white"
@@ -63,7 +77,7 @@ const NavBlock = block(function Navbar() {
                           aria-current={item.current ? "page" : undefined}
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>

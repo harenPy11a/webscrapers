@@ -6,15 +6,14 @@ import NavBlock from "./Navbar";
 const TitleBlock = block(function Title() {
   return (
     <div className="Title">
-      <div className="invisible lg:visible absolute h-screen w-screen">
+      <div className="invisible lg:visible absolute h-screen w-screen bg-[#121212]">
         <ParticleBlock></ParticleBlock>
       </div>
 
       <section className="absolute">
-        <NavBlock />
 
         <div>
-          <div class="h-[20px] lg:h-screen w-screen">
+          <div class="h-[20px] lg:h-screen w-screen ">
             <div class="mr-auto place-self-center">
               {/* divide-transparent */}
               <p className="text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-[100px] text-gray-100 text-center md:mt-24 mt-10">
