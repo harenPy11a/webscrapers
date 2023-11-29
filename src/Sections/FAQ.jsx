@@ -42,7 +42,7 @@ const FAQBlock = block(function FAQ() {
   return (
     <div
       id="faq"
-      class="mx-auto px-5 relative pt-10 pb-18 bg-gray-900 pb-4 lg:mb-0 lg:min-h-screen"
+      class="mx-auto px-5 relative pt-10 pb-18 bg-stone-800 pb-4 lg:mb-0 lg:min-h-screen"
     >
       <div class="flex flex-col items-center">
         <h2 class="font-bold text-4xl lg:text-5xl mt-5 tracking-tight lg:pb-10 text-[#fff] text-center">
