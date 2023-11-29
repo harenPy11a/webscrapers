@@ -29,7 +29,7 @@ const ContactBlock = block(function Contact() {
     
     <div id="contact" className="relative"> 
     <form action="" ref={form} onSubmit={sendEmail}>
-      <section className="text-slate-50 body-font relative bg-[#000]">
+      <section className="text-slate-50 body-font relative bg-[#121212]">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-5xl text-4xl font-medium title-font mb-4 text-slate-50">

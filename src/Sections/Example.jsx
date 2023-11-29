@@ -39,10 +39,7 @@ const ExampleBlock = block(function Example() {
 
   return (
     <div id="ourwork" className="bg-[#9e9791]">
-      <p className="bg-stone-900 py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-white text-center ">
-        Don't Believe us Yet?
-      </p>
-      <p className="bg-[#fffdf5] py-7 text-3xl font-bold leading-none md:text-5xl xl:text-[75px] text-black text-center "></p>
+      
 
       <div id="example" className="flex flex-col lg:flex-row bg-[#9e9791]">
         
