@@ -104,7 +104,7 @@ const AboutUsBlock = block(function AboutUs() {
                 </a>
 
                 <a
-                  href="#n"
+                  href="https://www.linkedin.com/in/haren-pylla/"
                   class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 >
                   <svg
