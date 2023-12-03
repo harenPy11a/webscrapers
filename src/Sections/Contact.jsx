@@ -2,16 +2,28 @@ import React, { useState , useRef} from "react";
 import { block } from "million";
 import emailjs from '@emailjs/browser';
 
+
+  
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   console.log('Form submitted');
+    
+
+  //   emailjs.sendForm('service_w2x8kdj', 'template_mlkqy44', form.current, 'F3vuGXhU25FR3XsgJ')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  //     e.target.reset();
+  //     showResult(true);
+  // };
 const ContactBlock = block(function Contact() {
-  console.log('hellooo');
   const[result, showResult] = useState(false);
   const form = useRef();
 
-  
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log('Form submitted');
-    
 
     emailjs.sendForm('service_w2x8kdj', 'template_mlkqy44', form.current, 'F3vuGXhU25FR3XsgJ')
       .then((result) => {
@@ -19,21 +31,20 @@ const ContactBlock = block(function Contact() {
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset();
-      showResult(true);
+
+      console.log('hellooo');
+    e.preventDefault();
   };
 
-
-  return (
-
-    
+return (
+      
     <div id="contact" className="relative"> 
-    <form action="" ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail}>
       <section className="text-slate-50 body-font relative bg-[#121212]">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-5xl text-4xl font-medium title-font mb-4 text-slate-50">
-              Work With Us
+              Work With Usaaaaa
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Tell us your idea in the contact form below and we can get in touch to make your website come to life.

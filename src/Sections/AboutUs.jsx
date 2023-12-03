@@ -8,6 +8,7 @@ import hpIMG from "./Assets/hp.jpg";
 import skIMG from "./Assets/sk.jpg";
 import asIMG from "./Assets/as.jpg";
 import kbIMG from "./Assets/kb.jpg";
+import daIMG from "./Assets/da.png";
 
 
 
@@ -367,7 +368,7 @@ const AboutUsBlock = block(function AboutUs() {
             <div class="flex flex-col items-center p-4 lg:p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-[#665d57] border-2 dark:border-gray-700 dark:hover:border-transparent">
               <img
                 class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-                src={vpIMG}
+                src={daIMG}
                 alt=""
               ></img>
 
@@ -381,7 +382,7 @@ const AboutUsBlock = block(function AboutUs() {
 
               <div class="flex mt-3 -mx-2">
                 <a
-                  href="https://instagram.com/vedantp16?igshid=Y2I2MzMwZWM3ZA=="
+                  href="https://www.instagram.com/dannyaat/"
                   class="mx-2 text-gray-800 hover:text-gray-500 group-hover:text-white"
                 >
                   <svg
@@ -424,7 +425,7 @@ const AboutUsBlock = block(function AboutUs() {
                 </a>
 
                 <a
-                  href="https://github.com/vedantp1621"
+                  href="https://github.com/Luminexz"
                   class="mx-2 text-gray-800 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white"
                 >
                   <svg
