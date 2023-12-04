@@ -13,17 +13,15 @@ function App() {
 
   return (
     <div className="bg-[#121212]">
-      <NavBlock/>
-      <TitleBlock/>
+      <NavBlock />
+      <TitleBlock />
       <div className="pb-[500px] lg:pb-[800px] bg-[#121212] w-[screen]"></div>
       <DescriptionBlock />
       <ProcessBlock />
       <ExampleBlock />
-      <FAQBlock />
-
       <AboutUsBlock />
+      <FAQBlock />
       <ContactBlock />
-
     </div>
   );
 }
