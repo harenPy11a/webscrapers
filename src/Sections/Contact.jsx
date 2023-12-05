@@ -26,7 +26,7 @@ const ContactBlock = block(function Contact() {
       .sendForm(
         "service_w2x8kdj",
         "template_mlkqy44",
-        form.current,
+        e.target,
         "F3vuGXhU25FR3XsgJ"
       )
       .then(
