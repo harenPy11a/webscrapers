@@ -2,47 +2,57 @@ import React, { useState, useRef } from "react";
 import { block } from "million";
 import emailjs from "@emailjs/browser";
 
-// const sendEmail = (e) => {
-//   e.preventDefault();
-//   console.log('Form submitted');
 
-//   emailjs.sendForm('service_w2x8kdj', 'template_mlkqy44', form.current, 'F3vuGXhU25FR3XsgJ')
-//     .then((result) => {
-//         console.log(result.text);
-//     }, (error) => {
-//         console.log(error.text);
-//     });
-//     e.target.reset();
-//     showResult(true);
-// };
+
+
+
+
 const ContactBlock = block(function Contact() {
-  const [result, showResult] = useState(false);
-  const form = useRef();
+const [result, showResult] = useState(false);
+const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+const [nameValue, setNameValue] = useState("");
+const [emailValue, setEmailValue] = useState("");
+const [messageValue, setMessageValue] = useState("");
 
-    emailjs
-      .sendForm(
-        "service_w2x8kdj",
-        "template_mlkqy44",
-        e.target,
-        "F3vuGXhU25FR3XsgJ"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
 
-    console.log("hellooo");
-    e.preventDefault();
+const sendEmail = (e) => {
+
+  e.preventDefault();
+
+  const templateParams = {
+    user_name: nameValue,
+    user_email: emailValue,
+    message: messageValue
   };
 
+  emailjs.send('service_w2x8kdj','template_mlkqy44', templateParams, 'F3vuGXhU25FR3XsgJ')
+  .then((response) => {
+     console.log('SUCCESS!', response.status, response.text);
+  }, (err) => {
+     console.log('FAILED...', err);
+  });
+  }
+
+
+const handleNameChange = (e) => {
+  setNameValue(e.target.value); // Update input value state when input changes
+};
+
+const handleEmailChange = (e) => {
+  setEmailValue(e.target.value); // Update input value state when input changes
+};
+
+const handleMessageChange = (e) => {
+  setMessageValue(e.target.value); // Update input value state when input changes
+};
+
+
+
+
   return (
+
+    
     <div id="contact" className="relative">
       <form ref={form} onSubmit={sendEmail}>
         <section className="text-slate-50 body-font relative bg-[#121212]">
@@ -67,6 +77,7 @@ const ContactBlock = block(function Contact() {
                       Name
                     </label>
                     <input
+                      onChange={handleNameChange}
                       type="text"
                       id="name"
                       name="from_name"
@@ -77,12 +88,14 @@ const ContactBlock = block(function Contact() {
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label
+                      
                       for="email"
                       className="leading-7 text-sm text-slate-100"
                     >
                       Email
                     </label>
                     <input
+                    onChange={handleEmailChange}
                       type="email"
                       id="email"
                       name="reply_to"
@@ -93,12 +106,14 @@ const ContactBlock = block(function Contact() {
                 <div className="p-2 w-full">
                   <div className="relative">
                     <label
+                      
                       for="message"
                       className="leading-7 text-sm text-slate-100"
                     >
                       Your Idea
                     </label>
                     <textarea
+                    onChange={handleMessageChange}
                       id="message"
                       name="message"
                       className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
@@ -132,39 +147,7 @@ const ContactBlock = block(function Contact() {
   );
 });
 
-// const ContactBlock = block(function Contact() {
-//   return (
-//     <div id="contact" className="relative">
-//       <footer className="footer p-10 bg-[#000]">
-//         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-40 lg:grid-cols-3 lg:grid-rows-1 lg:mx-auto">
-//           <div className="flex flex-col">
-//             <span className="font-semibold text-lg text-[#fff]">Services</span>
-//             <a className="text-white pb-1 pt-2">Branding</a>
-//             <a className="text-white pb-1">Design</a>
-//             <a className="text-white pb-1">Framework</a>
-//           </div>
-//           <div className="flex flex-col">
-//             <span className="font-semibold text-lg text-[#fff]">Company</span>
-//             <a href="#aboutus" className="link link-hover text-white pt-2 pb-1">
-//               About us
-//             </a>
-//             <a href="#description" className="link link-hover text-white pb-1">
-//               Description
-//             </a>
-//           </div>
-//           <div className="flex flex-col">
-//             <div className="font-semibold text-lg text-[#fff] mt-6 lg:mt-0">
-//               Contact
-//             </div>
-//             <a className="text-white pt-2 pb-1">
-//               webscrapers.contact@gmail.com
-//             </a>
-//             <a className="text-white pb-1">224-239-8445</a>
-//           </div>
-//         </div>
-//       </footer>
-//     </div>
-//   );
-// });
+
 
 export default ContactBlock;
+
