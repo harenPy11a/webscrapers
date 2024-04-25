@@ -145,11 +145,11 @@ const AboutUsBlock = block(function AboutUs() {
               ></img>
 
               <h1 class="mt-4 text-xl lg:text-2xl font-semibold text-black capitalize group-hover:text-white">
-                Babil Bunty
+                Sahil Khunt
               </h1>
 
               <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">
-                Supreme Teacher
+                Co-Founder/Developer
               </p>
 
               <div class="flex mt-3 -mx-2">
