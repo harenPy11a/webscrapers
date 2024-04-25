@@ -10,8 +10,6 @@ import asIMG from "./Assets/as.jpg";
 import kbIMG from "./Assets/kb.jpg";
 import daIMG from "./Assets/da.png";
 
-
-
 const info = [
   {
     img: hpIMG,
@@ -50,7 +48,6 @@ const info = [
 const AboutUsBlock = block(function AboutUs() {
   return (
     <div>
-
       <section id="aboutus" class="bg-[#9e9791]">
         {/* <NavBlock /> */}
 
@@ -148,11 +145,11 @@ const AboutUsBlock = block(function AboutUs() {
               ></img>
 
               <h1 class="mt-4 text-xl lg:text-2xl font-semibold text-black capitalize group-hover:text-white">
-                Sahil Khunt
+                Babil Bunty
               </h1>
 
               <p class="mt-2 text-gray-900 capitalize group-hover:text-gray-300">
-                Co-Founder/Developer
+                Supreme Teacher
               </p>
 
               <div class="flex mt-3 -mx-2">
